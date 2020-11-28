@@ -17,5 +17,5 @@ li:nth-child(even) {
 }
 
 .paragraphs > p:nth-child(odd) {
-  background-color: grey;
+  background-color: gray;
 }
