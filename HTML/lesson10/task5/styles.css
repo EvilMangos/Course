@@ -9,6 +9,8 @@ header {
   background-color: bisque;
   flex-grow: 1;
   min-width: 300px;
+  width: auto;
+  flex-basis: 300px;
 }
 
 .articles-list {
