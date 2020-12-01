@@ -8,21 +8,26 @@
   background-color: darkgreen;
   display: inline-block;
   padding: 16px;
+  opacity: 0.8;
 }
 
 .dropdown:hover .menu-list {
   display: block;
 }
 
+.dropdown:hover {
+  opacity: 1;
+}
+
+.dropdown:hover .menu-button {
+  opacity: 1;
+}
+
 .menu-button {
-  /* opacity: 0.8; */
+  opacity: 0.8;
   font-size: 16px;
   color: white;
   cursor: pointer;
-}
-
-.menu-button:hover {
-  /* opacity: 1; */
 }
 
 .menu-list {
