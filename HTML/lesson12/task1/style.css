@@ -13,6 +13,7 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   font-size: 36px;
+  transform: translateX(1px);
 }
 
 p {
