@@ -12,5 +12,5 @@
 
 .icon:hover {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task2/sprites.png);
-  background-position: -200px 100px;
+  background-position-y: -100px;
 }
