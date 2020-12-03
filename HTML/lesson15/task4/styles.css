@@ -8,6 +8,8 @@
 
 .image-button {
   display: inline-block;
+  width: 200px;
+  height: 50px;
   background-color: bisque;
   font-size: 12px;
   text-transform: uppercase;
