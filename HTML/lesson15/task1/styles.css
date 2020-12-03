@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.image-container {
+  margin: 50px 0 50px;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.gallery {
+  display: flex;
+}
+
+.card figcaption {
+  line-height: 30px;
+  text-align: center;
+}
+.card {
+  margin: 16px;
+  box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+}
+
+.opacity > img {
+  filter: opacity(50%);
+}
+
+.blur > img {
+  filter: blur(4px);
+}
+
+.invert > img {
+  filter: invert(100%);
+}
