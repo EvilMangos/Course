@@ -8,11 +8,14 @@ table {
   border-collapse: collapse;
 }
 
+tr {
+  height: 40px;
+}
+
 td,
 th {
   padding: 4px;
   text-align: right;
-  line-height: 40px;
 
   border: 1px solid black;
 }
