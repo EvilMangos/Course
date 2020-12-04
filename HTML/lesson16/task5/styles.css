@@ -1,0 +1,12 @@
+.main-form {
+  margin: 32px;
+}
+
+.main-form > input,
+textarea,
+select,
+button,
+.languages {
+  margin: 8px;
+  display: block;
+}
