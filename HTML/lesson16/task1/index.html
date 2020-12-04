@@ -13,37 +13,32 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="form-controller">
-      <input type="text" name="lastName" value="Emerson" />
-    </div>
-
-    <div class="form-controller">
-      <input type="number" name="age" value="17" />
-    </div>
-
-    <div class="form-controller">
-      <input type="checkbox" name="agree" id="agree-terms-and-conditions" />
-      <label for="agree-terms-and-conditions"
-        >Accept terms and conditions</label
-      >
-    </div>
-    <div class="choose-gender">
-      <input type="radio" name="gender" id="gender-male" />
-      Male
-      <input type="radio" name="gender" id="gender-female" />
-      Female
-      <input type="radio" name="gender" id="gender-secret" />
-      Secret
-    </div>
-
-    <div class="form-controller">
-      <textarea
-        name="description"
-        placeholder="Write description..."
-      ></textarea>
-    </div>
-    <div class="form-controller">
-      <button type="submit">Submit</button>
-    </div>
+    <form>
+      <div>
+        <input type="text" name="lastName" value="Emerson" />
+      </div>
+      <div>
+        <input type="number" name="age" value="17" />
+      </div>
+      <div>
+        <input type="checkbox" name="agree" /><label
+          >Accept terms and conditions</label
+        >
+      </div>
+      <div class="choose-gender">
+        <input type="radio" name="gender" checked />Male
+        <input type="radio" name="gender" />Female
+        <input type="radio" name="gender" />Secret
+      </div>
+      <div>
+        <textarea
+          name="description"
+          placeholder="Write description..."
+        ></textarea>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
   </body>
 </html>
