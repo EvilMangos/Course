@@ -48,7 +48,6 @@ input:invalid {
   text-transform: uppercase;
   color: #fff;
   border-radius: 4px;
-  border: none;
 }
 
 .form-control {
