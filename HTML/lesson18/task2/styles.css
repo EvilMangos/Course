@@ -1,8 +1,9 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-margin: 64px;
+button {
+  margin: 64px;
   width: 200px;
   height: 50px;
   text-align: center;
