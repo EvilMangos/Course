@@ -40,8 +40,8 @@ html {
   font-size: 1.25rem;
 }
 
-.section ul {
-  font-size: 1.75rem;
+.units-list {
+  line-height: 1.75rem;
 }
 
 .css-units {
