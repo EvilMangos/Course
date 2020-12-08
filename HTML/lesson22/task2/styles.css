@@ -17,9 +17,13 @@
   margin: auto;
 }
 
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media screen and (min-width: 600px) {
   .container {
     display: flex;
+  }
+
+  .container .block {
+    width: 50%;
   }
 
   .block {
@@ -33,12 +37,7 @@
   }
 
   .container {
-    display: flex;
     flex-grow: 2;
-  }
-
-  .block {
-    flex-grow: 1;
   }
 }
 
