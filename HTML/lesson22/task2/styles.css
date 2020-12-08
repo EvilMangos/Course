@@ -1,0 +1,50 @@
+body {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-grow: 2;
+}
+
+.block {
+  text-transform: lowercase;
+  font-family: Verdana;
+
+  height: 200px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  display: flex;
+  text-align: center;
+}
+
+.block span {
+  border-radius: 4px;
+  background-color: #faebd7;
+  padding: 8px;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  body,
+  .container {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  body {
+    display: block;
+  }
+}
+
+.first {
+  background-color: #ff7f50;
+}
+
+.second {
+  background-color: #006400;
+}
+
+.third {
+  background-color: #0ff;
+}
