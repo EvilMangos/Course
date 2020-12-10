@@ -34,10 +34,18 @@
 @media screen and (min-width: 900px) {
   .main {
     display: flex;
+    flex-grow: 1;
   }
 
   .container {
     flex-grow: 2;
+    flex-shrink: 2;
+    flex-basis: 200%;
+  }
+
+  .block {
+    flex-shrink: 1;
+    width: 50%;
   }
 }
 
