@@ -1,0 +1,40 @@
+@import "breakpoints";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  @include for-landscape {
+    display: flex;
+  }
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+
+  @include for-tiny-screen {
+    background-color: #ff7f50;
+  }
+
+  @include for-small-screen {
+    background-color: #8a2be2;
+  }
+
+  @include for-middle-screen {
+    background-color: #a61;
+  }
+
+  @include for-large-screen {
+    background-color: #c47;
+  }
+}
