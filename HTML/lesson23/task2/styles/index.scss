@@ -20,7 +20,11 @@ body {
 .square {
   width: 100px;
   height: 100px;
-  margin: 8px;
+  margin: 16px;
+
+  @include for-landscape {
+    margin: 8px;
+  }
 
   @include for-tiny-screen {
     background-color: #ff7f50;
