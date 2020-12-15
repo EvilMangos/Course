@@ -16,6 +16,7 @@
   padding: 8px;
   cursor: pointer;
   position: relative;
+  color: #000;
   display: flex;
   align-items: center;
 }
