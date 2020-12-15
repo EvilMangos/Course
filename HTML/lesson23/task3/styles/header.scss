@@ -5,14 +5,14 @@
   nav {
     height: 100%;
     .menu {
-      margin: 0 0 0 3em;
+      margin: 0 0 0 6em;
       text-transform: uppercase;
       display: flex;
       list-style-type: none;
       height: 100%;
 
       &__item {
-        padding: 8px;
+        padding: 0 8px;
         cursor: pointer;
         position: relative;
         color: #fff;
