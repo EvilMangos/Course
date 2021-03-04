@@ -1,0 +1,45 @@
+.customers {
+  &__row {
+    display: flex;
+
+    & > .customers__img:last-child {
+      border-right: none;
+    }
+
+    @include for-large {
+      justify-content: space-around;
+      align-items: center;
+      width: 50%;
+    }
+  }
+
+  &__img {
+    border-bottom: 1px solid $border;
+    border-right: 1px solid $border;
+
+    & > img {
+      filter: brightness(0);
+      @include for-small {
+        max-width: 73%;
+      }
+    }
+
+    @include for-small {
+      height: 94px;
+      display: flex;
+      flex-grow: 1;
+      flex-basis: 107px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @include for-large {
+      border: none;
+    }
+  }
+
+  @include for-large {
+    margin: 30px 130px 0 130px;
+    display: flex;
+  }
+}

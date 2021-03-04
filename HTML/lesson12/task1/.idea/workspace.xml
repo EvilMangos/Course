@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba0acd7f-6d1a-454c-b991-2a7eb3b4a7b9" name="Default Changelist" comment="" />
+    <list default="true" id="ba0acd7f-6d1a-454c-b991-2a7eb3b4a7b9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +39,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -50,6 +58,13 @@
       <workItem from="1607201583984" duration="45000" />
       <workItem from="1607418056422" duration="600000" />
       <workItem from="1608150827939" duration="5000" />
+      <workItem from="1608321463459" duration="601000" />
+      <workItem from="1608656820439" duration="2000" />
+      <workItem from="1608804143560" duration="3000" />
+      <workItem from="1609320066818" duration="4000" />
+      <workItem from="1610551960038" duration="10000" />
+      <workItem from="1610706889438" duration="4000" />
+      <workItem from="1611148237607" duration="11000" />
     </task>
     <servers />
   </component>

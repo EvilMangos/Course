@@ -1,0 +1,162 @@
+.footer {
+  .useful__links {
+    font-size: 18px;
+    color: $dark-text;
+
+    @include for-large {
+      display: flex;
+      margin-bottom: 59px;
+    }
+  }
+
+  &__logo {
+    margin-top: 46px;
+    display: none;
+    @include for-large {
+      margin-left: 130px;
+      display: flex;
+    }
+  }
+
+  &__download {
+    &_button {
+      margin-right: 10px;
+      padding: 0;
+      border: none;
+    }
+
+    &_img {
+      width: 100%;
+    }
+  }
+
+  .vertical-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include for-large {
+      display: none;
+    }
+
+    & .logo__text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    & .logo__title {
+      color: #2b292d;
+    }
+  }
+
+  &__company_description {
+    display: none;
+    @include for-large {
+      margin-left: 129px;
+      display: block;
+      line-height: 26px;
+      width: 360px;
+      margin-top: 26px;
+    }
+  }
+
+  &__downloads {
+    margin-left: 30px;
+    margin-top: 31px;
+    margin-bottom: 40px;
+
+    @include for-large {
+      margin-left: 130px;
+      margin-top: 25px;
+    }
+  }
+
+  &-top__line {
+    margin: 0;
+  }
+
+  &__columns {
+    margin-top: 30px;
+    @include for-large {
+      &:last-child {
+        margin-left: 29px;
+      }
+    }
+  }
+
+  &__about {
+    margin-left: 15px;
+    &_list {
+      font-size: 18px;
+      line-height: 30px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      margin-top: 18px;
+      width: 265px;
+    }
+    &_title {
+      color: #2b292d;
+      font-size: 22px;
+      line-height: 28px;
+      margin: 0;
+    }
+    @include for-large {
+      display: flex;
+      margin-top: 60px;
+      margin-left: 126px;
+    }
+  }
+
+  &__line {
+    display: none;
+    margin: 0;
+    @include for-large {
+      display: block;
+    }
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+
+    @include for-large {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 130px 0 132px;
+    }
+  }
+
+  &__official {
+    width: 180px;
+    line-height: 22px;
+    color: $dark-text;
+    @include for-large {
+      margin-top: 17px;
+      margin-bottom: 15px;
+    }
+  }
+
+  &__social {
+    width: 97px;
+    height: 18px;
+    padding-top: 1px;
+    margin-bottom: 22px;
+    @include for-large {
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+  }
+
+  &__official,
+  &__social {
+    list-style-type: none;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+}

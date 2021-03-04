@@ -1,0 +1,26 @@
+.about {
+  background-color: #f4f5f7;
+  padding: 46px 15px;
+
+  @include for-large {
+    padding: 77px 131px 76px 130px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__article {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 20px;
+
+    &_title {
+      font-weight: bold;
+      margin: 0;
+    }
+
+    &_text {
+      margin-top: 6px;
+      margin-bottom: 0;
+    }
+  }
+}

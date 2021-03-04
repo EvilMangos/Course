@@ -1,0 +1,96 @@
+@import "variables.scss";
+@import "breakpoints.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+.page {
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  color: #2b292d;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.light-button,
+.dark-button {
+  border: none;
+  border-radius: 2px;
+  background-blend-mode: overlay, normal;
+  width: 160px;
+  height: 48px;
+  font-weight: bold;
+  box-shadow: 0px 1px 3px #0000001a, 0px 4px 6px #0000000d,
+    inset 0px 1px 0px #ffffff1a;
+}
+
+.dark-button {
+  background: linear-gradient(
+      180deg,
+      #ffffff0d 0%,
+      rgba(255, 255, 255, 1e-5) 100%
+    ),
+    #3040c4;
+
+  color: white;
+}
+
+.logo {
+  display: flex;
+  width: 299px;
+  height: 60px;
+}
+
+.logo__img {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.logo__text {
+  margin-top: 4px;
+  width: 222px;
+  height: 51px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.logo__title {
+  display: block;
+  font-weight: bold;
+}
+
+.logo__description {
+  display: block;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 400px) {
+  .page {
+    width: 1400px;
+  }
+}
+
+@import "about.scss";
+@import "customers.scss";
+@import "features.scss";
+@import "footer.scss";
+@import "header.scss";
+@import "headline.scss";
+@import "tips.scss";

@@ -1,0 +1,132 @@
+.features {
+  &-desk {
+    display: none;
+
+    @include for-large {
+      display: block;
+      position: relative;
+    }
+  }
+
+  &__inner {
+    @include for-large {
+      padding-top: 106px;
+    }
+
+    & > * {
+      @include for-large {
+        width: 462px;
+      }
+    }
+  }
+
+  &__title {
+    @include for-large {
+      margin-left: 126px;
+      margin-top: 24px;
+      font-size: 56px;
+      line-height: 56px;
+    }
+  }
+
+  &__text {
+    @include for-large {
+      margin-left: 128px;
+      margin-top: 30px;
+    }
+  }
+
+  &__link {
+    @include for-large {
+      display: block;
+      margin-left: 129px;
+      margin-top: 42px;
+      font-size: 22px;
+      line-height: 26px;
+      text-decoration: none;
+      color: #3142c6;
+      font-weight: bold;
+    }
+
+    &-img {
+      @include for-large {
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+        margin-right: 15px;
+      }
+    }
+
+    &_subscription {
+      @include for-large {
+        margin-left: 129px;
+        margin-top: 8px;
+        font-size: 18px;
+        line-height: 26px;
+      }
+    }
+  }
+
+  &__line {
+    @include for-large {
+      display: block;
+      margin-left: 130px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      height: 3px;
+      border: none;
+      background-color: #3142c6;
+    }
+  }
+
+  &__footer {
+    @include for-large {
+      margin-left: 130px;
+      padding-bottom: 110px;
+    }
+
+    &_element {
+      @include for-large {
+        font-size: 22px;
+        line-height: 26px;
+        display: block;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-bottom: 21px;
+        border-bottom: 1px solid #2b292d26;
+      }
+    }
+
+    &_img {
+      @include for-large {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  &__image {
+    &_hidden-ouch {
+      @include for-large {
+        position: absolute;
+        top: 364px;
+      }
+    }
+
+    &_invision-screen {
+      @include for-large {
+        position: absolute;
+        top: 111px;
+        right: 0;
+      }
+    }
+  }
+}
+
+.section__title-features {
+  @include for-large {
+    margin-left: 128px;
+    font-size: 22px;
+    line-height: 34px;
+    color: $features-title;
+  }
+}

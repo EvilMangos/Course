@@ -1,0 +1,117 @@
+.top-section {
+  position: relative;
+
+  @include for-large {
+    background-color: #f3c6bd;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 4px 16px #2c324114;
+
+  @include for-small {
+    height: 64px;
+  }
+
+  @include for-large {
+    padding: 0 130px;
+    box-shadow: none;
+  }
+
+  &_logo {
+    @include for-small {
+      height: 100%;
+      width: 262px;
+      border-right: 1px solid #00000026;
+      padding: 8px 15px;
+    }
+
+    @include for-large {
+      margin-top: 41px;
+    }
+
+    &_description {
+      display: none;
+      @include for-large {
+        display: block;
+      }
+    }
+
+    &_text {
+      @include for-small {
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+      }
+    }
+
+    &_img {
+      @include for-small {
+        width: 48px;
+        height: 48px;
+        margin-right: 13px;
+      }
+    }
+  }
+
+  &__hamburger {
+    width: 18px;
+    height: 13px;
+    background-image: url("images/icon-hamburger.svg");
+    margin-right: 20px;
+    margin-top: 26px;
+    margin-bottom: 25px;
+
+    @include for-large {
+      display: none;
+    }
+  }
+
+  &__navigation {
+    margin-left: auto;
+    list-style-type: none;
+    display: none;
+    margin-top: 46px;
+    font-size: 18px;
+    line-height: 25px;
+    width: 292px;
+    justify-content: space-between;
+
+    @include for-large {
+      display: flex;
+    }
+
+    .navigation-arrow {
+      display: inline-block;
+      background-image: url("images/arrow.svg");
+      height: 5px;
+      width: 8px;
+      margin-left: 11px;
+      vertical-align: middle;
+    }
+
+    &_item {
+      &-selected {
+        font-weight: bold;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__menu {
+    &_button {
+      margin-top: 39px;
+      margin-left: 56px;
+      display: none;
+
+      @include for-large {
+        display: block;
+      }
+    }
+  }
+}
