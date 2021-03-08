@@ -1,0 +1,95 @@
+.order {
+  background-color: $order-background;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 15px;
+
+  @include for-large {
+    flex-direction: row;
+    padding: 73px 228px 72px 224px;
+  }
+
+  &__info {
+  }
+
+  &__img {
+    max-width: 200px;
+
+    @include for-large {
+      max-width: 100%;
+      margin-right: 122px;
+    }
+  }
+
+  &__title {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    margin-top: 40px;
+
+    @include for-large {
+      text-align: left;
+      margin-left: 1px;
+    }
+  }
+
+  &__text {
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 18px;
+    @include for-large {
+      margin-top: 12px;
+    }
+  }
+
+  &__form {
+    @include for-large {
+      display: flex;
+      margin-top: 26px;
+      margin-left: 2px;
+    }
+  }
+
+  &__input {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 13px;
+    height: 48px;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid $balloon;
+    @include for-small {
+    }
+    @include for-large {
+      margin-top: 0;
+      margin-right: 10px;
+      text-align: left;
+      padding-left: 15px;
+      max-width: 385px;
+    }
+  }
+
+  &__button {
+    margin-top: 12px;
+    @include for-small {
+      width: 100%;
+    }
+
+    @include for-large {
+      margin-top: 0;
+    }
+  }
+
+  &__subtext {
+    font-size: 14px;
+    line-height: 22px;
+    color: $light-text;
+    margin-top: 10px;
+    @include for-large {
+      margin-left: 1px;
+    }
+  }
+}

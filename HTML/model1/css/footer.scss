@@ -1,7 +1,7 @@
 .footer {
   .useful__links {
     font-size: 18px;
-    color: $dark-text;
+    color: $light-text;
 
     @include for-large {
       display: flex;
@@ -46,7 +46,7 @@
     }
 
     & .logo__title {
-      color: #2b292d;
+      color: $default-text-color;
     }
   }
 
@@ -97,7 +97,7 @@
       width: 265px;
     }
     &_title {
-      color: #2b292d;
+      color: $default-text-color;
       font-size: 22px;
       line-height: 28px;
       margin: 0;
@@ -133,7 +133,7 @@
   &__official {
     width: 180px;
     line-height: 22px;
-    color: $dark-text;
+    color: $light-text;
     @include for-large {
       margin-top: 17px;
       margin-bottom: 15px;

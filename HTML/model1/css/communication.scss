@@ -1,0 +1,131 @@
+.communication {
+  padding: 50px 15px;
+
+  @include for-large {
+    padding: 0;
+  }
+
+  &__main {
+    @include for-large {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__details {
+    max-width: 461px;
+    @include for-large {
+      margin-left: 128px;
+      margin-top: 123px;
+    }
+  }
+
+  &_title {
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 700;
+    color: $communication-title;
+  }
+
+  &_caption {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-top: 17px;
+    letter-spacing: -0.357143px;
+    @include for-large {
+      margin-left: -2px;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+      margin-top: 24px;
+    }
+  }
+
+  &_text {
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 18px;
+    @include for-large {
+      margin-top: 30px;
+    }
+  }
+
+  &_button {
+    margin-top: 30px;
+    @include for-large {
+      margin-top: 39px;
+    }
+  }
+
+  &__image {
+    margin-top: 40px;
+    @include for-large {
+      margin-right: 193px;
+      margin-top: 110px;
+    }
+  }
+
+  &_img {
+    max-width: 100%;
+  }
+
+  &_img-text {
+    margin-top: 17px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: $light-text;
+  }
+
+  &_line {
+    margin-top: 40px;
+    width: 150px;
+    border: none;
+    border-bottom: 1px solid #000;
+    opacity: 0.1;
+    display: block;
+    @include for-large {
+      margin-left: 128px;
+    }
+  }
+
+  &__article {
+    @include for-large {
+      margin-right: 30px;
+      flex-basis: 360px;
+      flex-grow: 1;
+    }
+
+    &:last-child {
+      margin-top: 32px;
+      @include for-large {
+        margin-right: 0;
+        margin-top: 0;
+      }
+    }
+
+    &_text {
+      margin-top: 33px;
+
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    &_link {
+      display: block;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 26px;
+      margin-top: 10px;
+    }
+  }
+
+  &__info {
+    @include for-large {
+      margin: 41px 130px 110px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

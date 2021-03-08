@@ -16,8 +16,9 @@ p {
 .page {
   font-family: "Work Sans", sans-serif;
   font-size: 24px;
-  color: #2b292d;
-  width: 100%;
+  line-height: 34px;
+  color: $default-text-color;
+  max-width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -35,6 +36,8 @@ p {
   font-weight: bold;
   box-shadow: 0px 1px 3px #0000001a, 0px 4px 6px #0000000d,
     inset 0px 1px 0px #ffffff1a;
+  font-size: 18px;
+  line-height: 13px;
 }
 
 .dark-button {
@@ -71,6 +74,8 @@ p {
 .logo__title {
   display: block;
   font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 .logo__description {
@@ -83,7 +88,7 @@ p {
 
 @media screen and (min-width: 400px) {
   .page {
-    width: 1400px;
+    max-width: 1400px;
   }
 }
 
@@ -94,3 +99,9 @@ p {
 @import "header.scss";
 @import "headline.scss";
 @import "tips.scss";
+@import "inbox.scss";
+@import "communication.scss";
+@import "audience.scss";
+@import "feedback.scss";
+@import "hiring.scss";
+@import "order.scss";

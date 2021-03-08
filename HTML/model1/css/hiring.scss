@@ -1,0 +1,95 @@
+.hiring {
+  padding: 50px 15px;
+  @include for-large {
+    padding: 106px 0 110px;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__title {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.357143px;
+  }
+
+  &__text {
+    margin-top: 18px;
+    text-align: center;
+    @include for-large {
+      margin-top: 20px;
+      max-width: 555px;
+    }
+  }
+
+  &__button {
+    margin-top: 30px;
+    @include for-small {
+      width: 100%;
+    }
+    @include for-large {
+      width: 247px;
+      margin-top: 28px;
+    }
+  }
+
+  &__jobs {
+    margin-top: 24px;
+    @include for-large {
+      margin-top: 90px;
+    }
+  }
+
+  &__vacancy {
+    border: 1px solid $border;
+    border-radius: 8px;
+    border-right: 50px solid #d5d4d5;
+    position: relative;
+    padding: 19px 21px 19px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+
+    @include for-large {
+      margin-top: 20px;
+      width: 750px;
+      border-right: 1px solid $border;
+      display: flex;
+      justify-content: space-between;
+      padding: 26px 65px 26px 25px;
+    }
+
+    &:hover {
+      background-color: $balloon-selected;
+      & .hiring__vacancy_text,
+      & .hiring__vacancy_info {
+        color: white;
+      }
+
+      & .hiring__vacancy_arrow {
+        background-image: url("images/icon-arrow-right-white.png");
+      }
+    }
+    &_text {
+      font-weight: 700;
+      display: block;
+    }
+
+    &_info {
+      font-size: 16px;
+      line-height: 22px;
+      color: $light-text;
+      margin-top: 7px;
+    }
+
+    &_arrow {
+      height: 12px;
+      width: 7px;
+      background-image: url("images/icon-arrow-right.png");
+      position: absolute;
+      right: -28px;
+      top: calc(50% - 6px);
+      @include for-large {
+        right: 25px;
+      }
+    }
+  }
+}

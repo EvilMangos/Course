@@ -7,7 +7,6 @@
     }
 
     @include for-large {
-      justify-content: space-around;
       align-items: center;
       width: 50%;
     }
@@ -21,6 +20,10 @@
       filter: brightness(0);
       @include for-small {
         max-width: 73%;
+      }
+
+      @include for-large {
+        margin-right: 105px;
       }
     }
 

@@ -20,7 +20,7 @@
     box-shadow: none;
   }
 
-  &_logo {
+  &__logo {
     @include for-small {
       height: 100%;
       width: 262px;
