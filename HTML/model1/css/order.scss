@@ -8,6 +8,7 @@
   @include for-large {
     flex-direction: row;
     padding: 73px 228px 72px 224px;
+    align-items: flex-start;
   }
 
   &__info {
@@ -32,6 +33,7 @@
     @include for-large {
       text-align: left;
       margin-left: 1px;
+      margin-top: 33px;
     }
   }
 

@@ -965,6 +965,7 @@ p {
   line-height: 40px;
   text-align: center;
   margin-top: 17px;
+  letter-spacing: -0.357143px;
 }
 @media screen and (min-width: 400px) {
   .audience_caption {
@@ -1020,7 +1021,7 @@ p {
   }
 }
 .audience__categories {
-  margin-top: 25px;
+  padding-top: 25px;
 }
 @media screen and (min-width: 400px) {
   .audience__categories {
@@ -1247,6 +1248,7 @@ p {
   .order {
     flex-direction: row;
     padding: 73px 228px 72px 224px;
+    align-items: flex-start;
   }
 }
 .order__img {
@@ -1269,6 +1271,7 @@ p {
   .order__title {
     text-align: left;
     margin-left: 1px;
+    margin-top: 33px;
   }
 }
 .order__text {
